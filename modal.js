@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const galleryContainer = document.getElementById('galleryContainer');
     const imageCount = 56; // Número total de imágenes
-    const excludeList = [22,55, 52, 49, 47, 48, 44,45, 38, 17]; // Lista de imágenes para excluir
+    const excludeList = [29,55, 52, 49, 47, 48, 44,45, 38, 17,29,53]; // Lista de imágenes para excluir
 
     for (let i = 1; i <= imageCount; i++) {
         // Verificar si el índice actual debe ser excluido
